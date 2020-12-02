@@ -23,13 +23,6 @@ shinyServer(function(input, output, session) {
   }, once = TRUE)
   
 
-  df <- reactiveFileReader(
-          intervalMillis = 8.64e+7,
-          session = session,
-          filePath = './data/mydata.csv',
-          readFunc = read_csv)
-  
-
   output$nhospitalized <- renderValueBox({
     results <- mydata() %>% 
       filter((state == input$state) &
