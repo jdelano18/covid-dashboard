@@ -5,8 +5,8 @@ account: jdelano18
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3338515
-bundleId: 3933442
+bundleId: 3933621
 url: https://jdelano18.shinyapps.io/covid-dashboard/
-when: 1606923642.50217
+when: 1606925447.55504
 asMultiple: FALSE
 asStatic: FALSE
